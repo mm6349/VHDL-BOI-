@@ -35,7 +35,7 @@ begin
         wait;
     end process;
 
-end architecture sim;
+end architecture sim1;
 ```
 
 แต่ละกรณีมี 2 บรรทัด บรรทัดแรกกำหนด `a` กับ `b` แล้วรอ 10 ns ให้ `y` เปลี่ยนตาม บรรทัดที่สองตรวจ `y` ด้วย `assert` ถ้าค่าไม่ตรงจะพิมพ์ข้อความ FAIL ออกมา การ `wait;` บรรทัดสุดท้ายหยุด process ไว้ไม่ให้วนกลับไปเริ่มใหม่
@@ -91,7 +91,7 @@ begin
 		
     end process;
 
-end architecture sim;
+end architecture sim2;
 
 ```
 
